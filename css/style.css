@@ -1,0 +1,191 @@
+/* Bootstrap overrides */
+.row,
+.container-fluid,
+.col-sm-8,
+.col-sm-4,
+.col-xs-12,
+.col-xs-8,
+.col-xs-7,
+.col-xs-4 {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+	color: #666;
+	font-weight: 300;
+	background-color: #EEE;
+	background-image: url(../images/tiling_500.png);
+	background-size: 100px 100px;
+	background-repeat: repeat;
+}
+.container-fluid {
+		padding: 30px !important;
+}
+
+
+
+#intro {
+	padding: 30px;
+	-moz-box-shadow: 0 0 15px 2px rgba(9,9,9,0.1);
+	-webkit-box-shadow: 0 0 15px 2px rgba(9,9,9,0.1);
+	box-shadow: 0 0 15px 2px rgba(9,9,9,0.1);
+	max-width: 1000px;
+	background-color: white;
+	padding: 100px 0px;
+	min-width: 300px;
+	max-width: 561px;
+	text-align: center;
+}
+		
+#intro > img {
+	
+}
+/*NAME BLOCK*/
+#nameBlock a {
+    text-decoration: none;
+}
+#nameBlock img {
+	width: 200px;
+}
+#nameBlock a #name {
+	font-size: 30px;
+}
+#name {
+	color: #333;
+	font-weight: 100;
+	font-size: 39px;
+	margin-top: 15px;
+}
+
+#nameBlock {
+		text-align: center;
+		min-width: 165px;
+		margin-top: 10px;
+	}
+/*NAME BLOCK END*/
+
+#navBlock {
+		padding: 0px;
+		margin-top: 60px;
+	}
+		#navBlock > li {
+			font-size: 20px;
+			color: #666;
+			/*display: inline-block;*/
+		}
+#navBlock > li > a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	text-shadow: 0px 0px 5px #FFF;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+#navBlock li a:hover{
+	color: #FF8E18;
+	text-shadow: none;
+}
+
+
+/*
+a {
+	color: #118DC3;
+	text-decoration: none;
+}
+	a:hover {
+		text-decoration: underline;
+	}
+
+
+
+	
+
+	
+	.topNav 
+
+	#nameBlock {
+	}
+		
+
+	.topNav #navContainer {
+		text-align: right;
+	}
+	
+	@media (max-width: 768px) {
+		.topNav #navContainer {
+			text-align: center;
+			margin: 30px 0px;
+		}
+	}
+
+	
+
+	#socialContainer {
+		vertical-align: middle;
+		margin-top: 15px;
+	}
+		#socialContainer div {
+			display: inline-block;
+			margin-right: 5px;
+		}
+
+		#socialContainer a div {
+			width: 16px;
+			height: 16px;
+			background: url(../../images/social_sq.png);
+			opacity: 0.3;
+		}
+			#socialContainer a:hover div {
+				opacity: 1.0;
+			}
+
+		#socialContainer a #twitter {
+			background-position: -20px 0px;
+		}
+			#socialContainer a:hover #twitter {
+				background-position: -20px 16px;
+			}
+		#socialContainer a #linkedin {
+			background-position: 0px 0px;
+		}
+			#socialContainer a:hover #linkedin {
+				background-position: 0px 16px;
+			}
+		#socialContainer a #quora {
+			background-position: -40px 0px;
+		}
+			#socialContainer a:hover #quora {
+				background-position: -40px 16px;
+			}
+		#socialContainer a #email {
+			background-position: -60px 0px;
+			opacity: 0.5;
+		}
+			#socialContainer a:hover #email {
+				background-position: -60px 16px;
+				opacity: 1.0;
+			}
+		#socialContainer a #angel {
+			background-position: -80px 0px;
+		}
+			#socialContainer a:hover #angel {
+				background-position: -80px 16px;
+			}
+		#socialContainer a #github {
+			background-position: -100px 0px;
+		}
+			#socialContainer a:hover #github {
+				background-position: -100px 16px;
+			}
+
+	#footerCopyright {
+		font-size: 12px;
+		color: #BBB;
+		margin: 50px auto 0px auto;
+	}*/

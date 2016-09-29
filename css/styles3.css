@@ -1,0 +1,97 @@
+body {
+	color: #666;
+	font-weight: 300;
+	background-color: #EEE;
+	background-image: url(../images/knitted-netting.png);
+}
+
+#contentBlock {
+	padding: 30px;
+	-moz-box-shadow: 0 0 15px 2px rgba(9,9,9,0.1);
+	-webkit-box-shadow: 0 0 15px 2px rgba(9,9,9,0.1);
+	box-shadow: 0 0 15px 2px rgba(9,9,9,0.1);
+	max-width: 1000px;
+	background-color: white;
+	padding: 100px 0px;
+	min-width: 300px;
+	text-align: center;
+	margin:30px auto 30px auto;
+}
+
+#navBlock {
+	text-align: right;
+	padding-right: 50px;
+}
+
+#navBlock > li {
+	color: #666;
+	/*display: inline-block;*/
+}
+
+#navBlock > li > a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	text-shadow: 0px 0px 5px #FFF;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.nav-tabs {
+	border-bottom: 1px solid #ddd;
+}
+.nav {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+#navBlock li a:hover{
+	color: #FF8E18;
+	text-shadow: none;
+}
+
+#projectContainer {
+	padding:0px;
+}
+
+ul{
+	margin-top: 0;
+	margin-bottom:10px; 
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+#itemSnap {
+	display: table-cell;
+	height: 80px;
+	width: 100px;
+	padding-left: 10px;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+
+.snap {
+	width: 70px;
+	height: 70px;
+	padding: 5px;
+}
+img{
+	vertical-align: middle;
+	border: 0;
+}
+
+.itemContainer > li {
+	float: left;
+	margin-bottom: -1px;
+	position: relative;
+	display: block;
+}
